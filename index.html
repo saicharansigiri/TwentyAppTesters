@@ -38,108 +38,117 @@
   </head>
 
 
-  <body>
+<body>
 
   <!-- Calendly badge widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/sigirideveloper/twnetyapptesters', text: 'Let\'s Talk ', color: '#ffffff', textColor: '#000000', branding: undefined }); }</script>
-<!-- Calendly badge widget end -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+  <script type="text/javascript">
+    window.onload = function() { 
+      Calendly.initBadgeWidget({ 
+        url: 'https://calendly.com/sigirideveloper/twnetyapptesters', 
+        text: 'Let\'s Talk ', 
+        color: '#ffffff', 
+        textColor: '#000000', 
+        branding: undefined 
+      }); 
+    }
+  </script>
+  <!-- Calendly badge widget end -->
 
-
-    <!-- Full Page Image Header Area -->
-    <div id="top" class="header">
-      <div class="vert-text">
-        <h1 style="color: white;">20 App Testers at Minimal Cost</h1>
-        <h3 style="color: whitesmoke;">Meet Google’s 20 Testers, 14 Days Compliance Requirement</h3>
-      </div>
+  <!-- Full Page Image Header Area -->
+  <header id="top" class="header">
+    <div class="vert-text">
+      <h1 style="color: white;">20 App Testers at Minimal Cost</h1>
+      <h3 style="color: whitesmoke;">Meet Google’s 20 Testers, 14 Days Compliance Requirement</h3>
     </div>
-    <!-- /Full Page Image Header Area -->
+  </header>
+  <!-- /Full Page Image Header Area -->
   
-    <!-- Intro -->
-    <div id="about" class="intro">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center">
-            <h2>Affordable 14-Day Testing for Google Play Compliance</h2>
-            <p class="lead" style="justify-content: flex-start;">Our service ensures that your app is opened and interacted with daily by real users for 14 days, meeting Google’s compliance requirement. We focus on providing a cost-effective solution without the complexity of full QA testing in Basic Plan</p>
-          </div>
+  <!-- Intro Section -->
+  <section id="about" class="intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center">
+          <h2>Affordable 14-Day Testing for Google Play Compliance</h2>
+          <p class="lead" style="justify-content: flex-start;">
+            Our service ensures that your app is opened and interacted with daily by real users for 14 days, meeting Google’s compliance requirement. We focus on providing a cost-effective solution without the complexity of full QA testing in the Basic Plan.
+          </p>
         </div>
       </div>
     </div>
-    <!-- /Intro -->
+  </section>
+  <!-- /Intro Section -->
   
-    <!-- /Pricing -->
-    <div class="background">
-      <div class="container">
-        <div class="panel pricing-table">
-          
-          <div class="pricing-plan">
-            <img src="https://s22.postimg.cc/8mv5gn7w1/paper-plane.png" alt="" class="pricing-img">
-            <h2 class="pricing-header">Basic Plan</h2>
-            <ul class="pricing-features">
-              <li class="pricing-features-item">Basic Google Compliance Plan</li>
-              <li class="pricing-features-item">Installing the app on 20 devices</li>
-              <li class="pricing-features-item">Interacting with the app for 14 days</li>
-            </ul>
-            <span class="pricing-price">$40</span>
-            <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/sigirideveloper/twnetyapptesters'});return false;" class="pricing-button">Book Now</a>
-          </div>
-          
-          <div class="pricing-plan">
-            <img src="https://s21.postimg.cc/tpm0cge4n/space-ship.png" alt="" class="pricing-img">
-            <h2 class="pricing-header">Enterprise</h2>
-           
-            <ul class="pricing-features">
-              <li class="pricing-features-item">Functional Testing</li>
-              <li class="pricing-features-item">Compatibility Testing</li>
-              <li class="pricing-features-item">Automation Testing</li>
-            </ul>
-            <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/sigirideveloper/twnetyapptesters'});return false;" class="pricing-button">Book Now</a>
-          </div>
-          
+  <!-- Pricing Section -->
+  <section id="pricing" class="background">
+    <div class="container">
+      <div class="panel pricing-table">
+        
+        <div class="pricing-plan">
+          <img src="https://s22.postimg.cc/8mv5gn7w1/paper-plane.png" alt="Basic Plan Icon" class="pricing-img">
+          <h2 class="pricing-header">Basic Plan</h2>
+          <ul class="pricing-features">
+            <li class="pricing-features-item">Basic Google Compliance Plan</li>
+            <li class="pricing-features-item">Installing the app on 20 devices</li>
+            <li class="pricing-features-item">Interacting with the app for 14 days</li>
+          </ul>
+          <span class="pricing-price">$40</span>
+          <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/sigirideveloper/twnetyapptesters'});return false;" class="pricing-button">Book Now</a>
         </div>
+        
+        <div class="pricing-plan">
+          <img src="https://s21.postimg.cc/tpm0cge4n/space-ship.png" alt="Enterprise Plan Icon" class="pricing-img">
+          <h2 class="pricing-header">Enterprise</h2>
+          <ul class="pricing-features">
+            <li class="pricing-features-item">Functional Testing</li>
+            <li class="pricing-features-item">Compatibility Testing</li>
+            <li class="pricing-features-item">Automation Testing</li>
+          </ul>
+          <a href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/sigirideveloper/twnetyapptesters'});return false;" class="pricing-button">Book Now</a>
+        </div>
+        
       </div>
     </div>
- <!-- /Pricing -->
-    
+  </section>
+  <!-- /Pricing Section -->
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
+  <!-- JavaScript -->
+  <script src="js/jquery-1.10.2.js"></script>
+  <script src="js/bootstrap.js"></script>
 
-    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
-    <script>
-        $("#menu-close").click(function(e) {
-            e.preventDefault();
-            $("#sidebar-wrapper").toggleClass("active");
-        });
-    </script>
-    <script>
-        $("#menu-toggle").click(function(e) {
-            e.preventDefault();
-            $("#sidebar-wrapper").toggleClass("active");
-        });
-    </script>
-    <script>
-      $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-            || location.hostname == this.hostname) {
-
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-              $('html,body').animate({
-                scrollTop: target.offset().top
-              }, 1000);
-              return false;
-            }
-          }
-        });
+  <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
+  <script>
+      $("#menu-close").click(function(e) {
+          e.preventDefault();
+          $("#sidebar-wrapper").toggleClass("active");
       });
-    </script>
+  </script>
+  <script>
+      $("#menu-toggle").click(function(e) {
+          e.preventDefault();
+          $("#sidebar-wrapper").toggleClass("active");
+      });
+  </script>
+  <script>
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+          || location.hostname == this.hostname) {
 
-  </body>
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+  </script>
+
+</body>
 
 </html>
